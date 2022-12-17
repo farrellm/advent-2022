@@ -1,0 +1,9 @@
+resolver: lts-20.1
+
+packages:
+  - .
+
+# flags: {}
+
+ghc-options:
+  "$locals": -fwrite-ide-info
